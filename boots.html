@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootsrap</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand text-info " href="./developer.html">Developer</a>
+      
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./boots.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact .html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="./service.html"
+                tabindex="-1"
+            
+                >Services</a
+              >
+            </li>
+          </ul>
+          <div class="dropdown sm-ps-5">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton2"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Dropdown button
+            </button>
+            <ul
+              class="dropdown-menu dropdown-menu-dark text-center"
+              aria-labelledby="dropdownMenuButton2"
+            >
+              <li>
+                  <a class="dropdown-item text-info" href="./image.html"> Image</a>
+              </li>
+
+              <li>
+                  <a class="dropdown-item text-info" href="./video.html">Videos</a>
+              </li>
+              
+              <li>
+                <a class="dropdown-item text-info" href="./slide.html">Slides</a>
+              
+            </ul>
+          </li>
+           
+          </div>
+          
+        </div>
+        <form class="d-flex ">
+          <input type="search" class="form-control me-2" placeholder="Search here..." aria-label="search">
+          <button class="btn btn-success me-2" type="submit"><img src="/search icon.png"></button>
+        </form> 
+      </div>  
+        
+    </nav>
+
+    <div class=" bg-secondary m-4 text-light">
+      <div class=" m-4 "> 
+        
+      <h1 class="text-center">Home Page</h1> 
+      <h4 class="text-center">what is web development?</h4>
+      
+      
+        <p>
+        Web development is a dynamic field that requires a mix of technical and creative skills. Here are some essential skills you'll need to excel in web development: 
+      class="text-center ">Technical skills:
+      HTML/CSS: The foundational building blocks of web development. HTML (HyperText Markup Language) structures content, while CSS (Cascading Style Sheets) styles it.
+
+      JavaScript: Adds interactivity and dynamic content to websites. Knowledge of JavaScript frameworks like React, Angular, or Vue.jsis also beneficial.
+<h4 class="text-center"><u>Backend Development</u></h4>
+      Backend Development: Understanding server-side languages like Node.js, Python, Ruby, PHP, or Java. This is crucial for managing databases, server logic, and authentication.
+
+      Responsive Design: Ensuring websites look and function well on various devices and screen sizes. Knowledge of frameworks like Bootstrap is useful </p>     
+      <button class=" btn btn-success "    data-bs-toggle="modal" data-bs-target="#yibeModal" >
+        Read more &raquo;
+      </button>
+      </div>    
+    </div>        
+          <!-- Modal -->
+          <div class="modal fade" id="yibeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header bg-danger">
+                  <h5 class="modal-title bg-danger" id="exampleModalLabel">Sign in</h5>
+                  <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center rounded-pill">
+                  <img class="w-25 h-25 rounded-circle" src="/48287.jpg" alt="profile avatar">
+                </div>
+                <form class="text-center">
+                  <div class=" ">
+                  <label for="my-email">Email</label>
+                  <br>
+                  <input type="text" class="form control" id="my-email" placeholder="Enter Email">
+                  <br>
+                  <small class="text-secondary ps-2"> never share your passwerd!</small>
+                <br>
+                </div>
+              <div>
+                  <label for="my-password">Password</label>
+                  <br>
+                  <input type="password" class="" id="my-password" placeholder="Enter Password">
+                </div>
+                <button type="button" class="btn btn-primary m-5 p-2" data-bs-toggle="modal" data-bs-target="yibeModal">
+                  sign in
+                  </button>
+                </form>
+                <div class="modal-footer ">
+                  <small>copy right;</small>
+                  <small>please sign in proceed!</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-group m-4 ">
+            <div class="card m-4">
+              <img src="/pages/Videos/istockphoto.jpg" class="card-img-top " alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Winter wallepar</h6>
+              <p class="card-text">Ethiopian land is beautifull in land scape more over in winter. <br>
+                <button class=" btn btn-success "    data-bs-toggle="modal" data-bs-target="#yibeModal" >
+                  Read more &raquo;
+                </button>
+              </p>
+                  <small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card m-4">
+              <img src="/pages/Videos/winter livestock image.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Endemic place</h6>
+              
+                <p class="card-text">there are many endemic places and historical heritages in ethiopia that gifted in nature.
+                  <br>
+                  <button class=" btn btn-success "    data-bs-toggle="modal" data-bs-target="#yibeModal" >
+                    Read more &raquo;
+                  </button>
+                </p>
+                  <small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card m-4">
+              <img src="/pages/Videos/bautfy flower.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Beauty Flower</h6>
+                <p>flowers are beautuful in human sight they shows peace, love and integrity in nature.
+                  <br>
+                  <button class=" btn btn-success "    data-bs-toggle="modal" data-bs-target="#yibeModal" >
+                    Read more &raquo;
+                  </button>
+                </p>
+                <small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card m-4">
+              <img src="/pages/Videos/walepare image.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Endemic sight</h6>
+                <p class="card-text">
+                  In background sight ethiopia is the first country in the world. it have god's gift.
+                  <br>
+                  <button class=" btn btn-success "    data-bs-toggle="modal" data-bs-target="#yibeModal" >
+                    Read more &raquo;
+                  </button>
+                  </p>
+                  <small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="  p-5">
+            <p>
+              Ethiopian rular areas are the widest and greeen area rather than the urban area, they also yearly productable crop lands and more sight full in complete year cycle. peoples they live at that areas are more colllaborative and all  ethiopian traditions with out abused, cleanly reflected. most of peopels their wishing is living at that place at this time.they produce different types of cropes in each year cycle. in one of this places fogera woreda is an example in agricultural practices . farmers live at that place is produce three times in one year. it is very endemic place if you have a chance to visite this place it is endemic land particitions. and there are beautiful backgrounds that gives nice sight for eye from these i deliver one for sight as example below.
+            </p>
+         </div>
+         <div class="p-5 img-thumbnail bg-warning">
+         <img class="w-100  img-thumbnail" src="/pages/Videos/google wallepares/istockphoto-616891550-612x612.jpg" alt=" fogera backgrounds">
+                
+        </div>
+        <div class="img-thumbnail bg-info">
+        <p class="p-5  " style="background-color:#c2f5e5; ;">As example we shoot this background ,not only this there are a pleanty full backgrounds that found in this place. the most wellknown features in fogera is thier landscape is light horizontal and there is no ups and downs.by nature it have landed scapes. most of the crops that grown in this place are teff, potato:two times in one year cycle,pea, bean,wheat and there is frowers that exported out side to other countries. this flowers needs special conservation. we now that there in not enough to tell about forega worda , i invite yo to visite these place. there are different features and societies at that place that trigger pooverty.if we work as fogera woreda society we can win pooverty and hungrying and in short time we can grow and produce a lots of food productions . </p>  
+      </div>
+  
+  
+  <div class="  text-center pt-4 img-thumbnail" style="background-color: #9ae751;">
+  <h4 class="text-danger text-center">Do you gain Information? </h4>
+  <div class="form-check form-check-inline ps-5">
+    <div class="form-check form-switch ">
+      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+      <label class="form-check-label" for="flexSwitchCheckDefault">click here if you gain you want!!</label>
+    </div>
+    <div class="form-check form-switch">
+      <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+      <label class="form-check-label" for="flexSwitchCheckChecked">Click here if you are not Satisfy!!</label>
+    </div>
+    <form class="text-center m-5"> 
+      <input type="Submit" class="btn btn-primary text-light text-center" id="#yibeModal">
+      <br>Thank You for Your feedback!!
+    </form>
+  </div>
+
+  
+</div> 
+<footer class="text-center p-3 text-white" style="background-color:hsl(289, 81%, 62%); ;">
+  <small class="text-center p-5">&copy; All rights reserved metages yigbeltal .</small>
+</footer>
+</body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
